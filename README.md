@@ -25,7 +25,7 @@ cypress/
 - 🔧 **Acesso à seção de informações pessoais (My Info)**
 
 ## Como executar os testes
-
+```
 1. Clone o repositório
 git clone https://github.com/seu-usuario/cypress-orangehrm-tests.git
 cd cypress-orangehrm-tests 
@@ -35,11 +35,11 @@ npm install
 
 3. Execute os testes em modo interativo
 npx cypress open
-
+```
 ## Dados de Teste
 Os dados dos usuários estão no arquivo:
 cypress/fixtures/userData.json
-
+```
 {
     "userSucess": {
         "username": "Admin",
@@ -50,7 +50,7 @@ cypress/fixtures/userData.json
         "password": "Test"
     }
 }
-
+```
 ## Aprendizados
 - Criação de testes end-to-end com Cypress.
 - Manipulação de elementos utilizando seletores CSS.
