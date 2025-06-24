@@ -10,12 +10,13 @@ Automação de testes end-to-end utilizando Cypress para o sistema OrangeHRM. Es
 
 ## Estrutura de Pastas
 
+```
 cypress/
 ├── e2e/
 │ └── orangeHrm.cy.js # Arquivo principal dos testes
 ├── fixtures/
 │ └── userData.json # Dados dos usuários (válido e inválido)
-
+```
 
 ## Funcionalidades Testadas
 
